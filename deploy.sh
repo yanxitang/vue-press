@@ -10,11 +10,10 @@ npm run build
 cd docs/.vuepress/dist
 
 git init
-git add -A
-git commit -m 'chenge'
-git commit --amend --reset-author
 git config  user.name  "yanxitang"  
 git config  user.email  "1570101654@qq.com"
+git add -A
+git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:yanxitang/vue-press.git master
