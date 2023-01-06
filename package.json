@@ -8,7 +8,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.9.7"
   },
   "keywords": [],
   "author": "",
